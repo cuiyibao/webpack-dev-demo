@@ -1,0 +1,22 @@
+{
+  "name": "webpack0919",
+  "version": "1.0.0",
+  "description": "webpack+module",
+  "main": "index.js",
+  "dependencies": {
+    "jquery": "^3.2.1",
+    "moment": "^2.18.1"
+  },
+  "devDependencies": {
+    "html-webpack-plugin": "^2.30.1",
+    "webpack": "^2.7.0",
+    "webpack-dev-server": "^2.11.2"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "webpack --config webpack.config.js",
+    "dev": "webpack-dev-server --config webpack.config.js"
+  },
+  "author": "bao",
+  "license": "ISC"
+}
